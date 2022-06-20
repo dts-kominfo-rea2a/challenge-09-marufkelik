@@ -1,14 +1,11 @@
 // Kalian bisa menambahkan CSS di src/components/Header.css
 import React from 'react';
 
-const Header = ({text, text2}) => {
+const Header = ({title}) => {
     return (
        <>
        <div>
-        <h1>{text}</h1>
-        </div>
-        <div>
-        <h3><i>{text2}</i></h3>
+        <h1>{title}</h1>
         </div>
         </>
     )

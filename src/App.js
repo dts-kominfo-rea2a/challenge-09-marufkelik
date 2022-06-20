@@ -13,8 +13,8 @@ const App = () => {
   return (
     <div className="App" style={{ display: 'flex', flexDirection: 'column', gap: '0.5em', backgroundColor:'#ffe6cc' }}>
       <header className='kepala'>
-      <Header text="Call a Friend"/>
-      <Header text2="your friendly contact app"/>
+      <Header title="Call a Friend"/>
+      <Header title="your friendly contact app"/>
       </header>
       <div className='pembatas' style={{color:'red'}}>
         ********************************************************
