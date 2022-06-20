@@ -12,14 +12,14 @@ const App = () => {
   // Masukkan Header dan Contact ke dalam div App
   return (
     <div className="App" style={{ display: 'flex', flexDirection: 'column', gap: '0.5em', backgroundColor:'#ffe6cc' }}>
-      <header className='kepala'>
+      
       <Header title="Call a Friend"/>
       <Header title="your friendly contact app"/>
-      </header>
+      
       <div className='pembatas' style={{color:'red'}}>
         ********************************************************
       </div>
-      
+  
       <Contact data={contacts[0]}/>
       <Contact data={contacts[1]}/>
       <Contact data={contacts[2]}/>
